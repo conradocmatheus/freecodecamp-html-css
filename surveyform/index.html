@@ -11,26 +11,96 @@
         <p id="description">my first freeCodeCamp certification project</p>
 
         <form id="survey-form">
-            <label id="name-label" for="name">Name</label>
-            <input id="name" type="text" placeholder="Your Name" required />
-            <label id="email-label" for="email">Email</label>
-            <input id="email" type="email" placeholder="Your Email" required />
-            <label id="number-label" for="number">Age</label>
-            <input
-                id="number"
-                type="number"
-                min="0"
-                max="115"
-                placeholder="45991214710"
-            />
+            <div>
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" placeholder="Your Name" required />
+                <label id="email-label" for="email">Email</label>
+                <input
+                    id="email"
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                />
+                <label id="number-label" for="number">Age</label>
+                <input
+                    id="number"
+                    type="number"
+                    min="0"
+                    max="115"
+                    placeholder="45991214710"
+                />
+            </div>
 
-            <select id="dropdown">
-                <option value=""></option>
-                <option value=""></option>
-            </select>
+            <div>
+                <select id="dropdown">
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </div>
 
-            <p>Would you recommend freeCodeCamp to a friend?</p>
-            <label for=""></label>
+            <div class="formRadioGroup">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label>
+                    <input
+                        value="Yes"
+                        type="radio"
+                        name="radioSelector"
+                        class="radioInput"
+                        checked
+                    />
+                    "YES"
+                </label>
+                <label>
+                    <input
+                        value="No"
+                        type="radio"
+                        name="radioSelector"
+                        class="radioInput"
+                        checked
+                    />
+                    "NO"
+                </label>
+            </div>
+
+            <div>
+                <p>Choose one</p>
+                <label>
+                    <input
+                        name="choose"
+                        value="1"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />
+                    "1"
+                </label>
+                <label>
+                    <input
+                        name="choose"
+                        value="2"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />
+                    "2"
+                </label>
+                <label>
+                    <input
+                        name="choose"
+                        value="3"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />
+                    "3"
+                </label>
+                <label>
+                    <input
+                        name="choose"
+                        value="4"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />
+                    "4"
+                </label>
+            </div>
         </form>
     </body>
 </html>
