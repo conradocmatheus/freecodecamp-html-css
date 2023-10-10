@@ -11,14 +11,20 @@
         <p id="description">my first freeCodeCamp certification project</p>
 
         <form id="survey-form">
+            <label id="name-label" for="name">Name</label>
             <input id="name" type="text" required />
-            <input id="email" type="text" required />
-            <input id="number" type="number" />
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" required />
+            <label id="number-namber" for="number">Age</label>
+            <input id="number" type="number" min="0" max="115" />
 
             <select id="dropdown">
                 <option value=""></option>
                 <option value=""></option>
             </select>
+
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label for=""></label>
         </form>
     </body>
 </html>
